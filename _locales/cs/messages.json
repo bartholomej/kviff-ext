@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Kviff"
+  },
+  "appDesc": {
+    "message": "Jednoduché rozšíření pro KVIFF.TV, které do detailu filmu přidává tlačítko s odkazem na hodnocení filmu na webu ČSFD."
+  },
+  "appContent": {
+    "message": "Jednoduché rozšíření pro KVIFF.TV, které do každého detailu filmu přidává tlačítko s odkazem na hodnocení filmu na webu ČSFD... Rozšíření je neoficiální, experimentální a nemá nic společného se samotnou službou KVIFF.TV ❤️ ani s ČSFD..."
+  },  
+  "notOfficial": {
+    "message": "Neoficiální rozšíření"
+  }
+}

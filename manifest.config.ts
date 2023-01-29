@@ -7,9 +7,10 @@ const [major, minor, patch, label = "0"] = version.replace(/[^\d.-]+/g, "").spli
 
 export default defineManifest(async (env) => {
   return {
-    name: "Kviff + ČSFD" + (env.mode === "development" ? " [DEV] " : ""),
+    name: "__MSG_appName__" + (env.mode === "development" ? " [DEV] " : ""),
+    description: "__MSG_appDesc__",
+    default_locale: "en",
     short_name: "kvifftv",
-    description: "kviff",
     author: "bartholomej",
     version: `${major}.${minor}.${patch}.${label}`,
     version_name: version,
