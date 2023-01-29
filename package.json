@@ -1,8 +1,17 @@
 {
-  "name": "kviff-csfd",
+  "name": "kviff-ext",
   "version": "0.0.3",
   "description": "KVIFF.TV extension adds a button within each movie detail to show information about ČSFD rating...",
   "type": "module",
+  "repository": {
+    "url": "git+https://github.com/bartholomej/kviff-ext.git",
+    "type": "git"
+  },
+  "author": "Bartholomej <bart@bartweb.cz>",
+  "bugs": {
+    "url": "https://github.com/bartholomej/kviff-ext/issues"
+  },
+  "homepage": "https://github.com/bartholomej/kviff-ext#readme",
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -25,5 +34,8 @@
   "dependencies": {
     "node-csfd-api": "^3.0.0-next.2",
     "solid-js": "^1.6.6"
+  },
+  "engines": {
+    "node": ">= 18"
   }
 }

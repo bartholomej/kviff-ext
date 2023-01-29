@@ -1,17 +1,17 @@
 [![taylor swift](https://img.shields.io/badge/secured%20by-taylor%20swift-brightgreen.svg)](https://twitter.com/SwiftOnSecurity)
 [![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
 
-# Kvifftv extension
+# KVIFF.TV extension
 
-> Simple Chrome extension for **Kviff.tv** _[kviff.tv](https://kviff.tv)_ which adds a small button within each **movie detail** to show information about **ČSFD** rating
+> Simple Chrome extension for **[KVIFF.TV](https://kviff.tv)** which adds a small button within each **movie detail** to show information about **ČSFD** rating
 
-![Screenshot](https://raw.githubusercontent.com/bartholomej/kvifftv-ext/master/_assets/kviff-promo.png)
+![Screenshot](https://raw.githubusercontent.com/bartholomej/kviff-ext/master/_assets/kviff-promo.png)
 
 ## Installation
 
 ### Automatically (for humans)
 
-- **[Install for Chrome]()** from official **Chrome Web Store** TBD
+- **[Install for Chrome](https://chrome.google.com/webstore/detail/kviff-csfd/ihpngekoejodiligajlppbeedofhnmfm)** from official **Chrome Web Store** (TBD)
 
 ### Manually (for ~~robots~~ developers)
 
@@ -30,9 +30,9 @@ Load your extension on Chrome following:
 9. Make some awesome features or bugfixes in code
 10. Save and wait for auto reload in browser
 
-#### Build production for specific browsers
+#### Build production
 
-- `yarn run build:chrome`
+- `yarn build`
 
 ## Contribution
 
@@ -46,7 +46,7 @@ I DO NOT STORE ANY DATA. PERIOD.
 
 I physically can't. I have nowhere to store it. I don't even have a server database to store it. So even if Justin Bieber asked nicely to see your data, I wouldn't have anything to show him.
 
-That's why, with KVIFFTV EXTENSION, what happens on your device stays on your device till disappear.
+That's why, with KVIFF EXTENSION, what happens on your device stays on your device till disappear.
 
 ## Donation
 

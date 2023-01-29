@@ -10,7 +10,7 @@ export default defineManifest(async (env) => {
     name: "__MSG_appName__" + (env.mode === "development" ? " [DEV] " : ""),
     description: "__MSG_appDesc__",
     default_locale: "en",
-    short_name: "kvifftv",
+    short_name: "kviff-ext",
     author: "bartholomej",
     icons: {
       16: "src/assets/logo-16.png",
