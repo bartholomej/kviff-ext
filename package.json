@@ -1,0 +1,25 @@
+{
+  "name": "kviff-csfd",
+  "version": "0.0.1",
+  "description": "Kvifftv extension",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.11",
+    "@types/chrome": "^0.0.210",
+    "sass": "^1.57.1",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.3",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "node-csfd-api": "^3.0.0-next.2",
+    "solid-js": "^1.6.6"
+  }
+}
