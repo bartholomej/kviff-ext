@@ -12,6 +12,11 @@ export default defineManifest(async (env) => {
     default_locale: "en",
     short_name: "kvifftv",
     author: "bartholomej",
+    icons: {
+      16: "src/assets/logo-16.png",
+      32: "src/assets/logo-32.png",
+      128: "src/assets/logo-128.png"
+    },
     version: `${major}.${minor}.${patch}.${label}`,
     version_name: version,
     host_permissions: ["https://www.csfd.cz/"],
