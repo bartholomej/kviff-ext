@@ -23,17 +23,17 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@crxjs/vite-plugin": "^2.0.0-beta.11",
+    "@crxjs/vite-plugin": "2.0.0-beta.12",
     "@types/chrome": "^0.0.210",
-    "sass": "^1.57.1",
-    "typescript": "^4.9.4",
-    "vite": "^4.0.3",
-    "vite-plugin-solid": "^2.5.0",
+    "sass": "^1.60.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.2.1",
+    "vite-plugin-solid": "^2.6.1",
     "vite-plugin-zip-pack": "^1.0.5"
   },
   "dependencies": {
-    "node-csfd-api": "^3.0.0-next.2",
-    "solid-js": "^1.6.6"
+    "node-csfd-api": "3.0.0-next.11",
+    "solid-js": "^1.7.0"
   },
   "engines": {
     "node": ">= 18"
