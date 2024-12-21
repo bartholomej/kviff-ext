@@ -1,6 +1,6 @@
 {
   "name": "kviff-ext",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "KVIFF.TV extension adds a button within each movie detail to show information about ČSFD rating...",
   "type": "module",
   "repository": {
