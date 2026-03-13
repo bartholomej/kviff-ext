@@ -5,13 +5,13 @@ const { version } = packageJson;
 // Convert from Semver (example: 0.1.0-beta6)
 const [major, minor, patch, label = "0"] = version.replace(/[^\d.-]+/g, "").split(/[.-]/);
 
-export default defineManifest(async (env) => {
+export default defineManifest((env) => {
   return {
     name: "__MSG_appName__" + (env.mode === "development" ? " [DEV] " : ""),
     description: "__MSG_appDesc__",
     default_locale: "en",
     short_name: "kviff-ext",
-    author: "bartholomej",
+    author: { email: "bart@bartweb.cz" },
     icons: {
       16: "src/assets/logo-16.png",
       32: "src/assets/logo-32.png",

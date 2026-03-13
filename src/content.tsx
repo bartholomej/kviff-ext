@@ -1,12 +1,12 @@
-import { render } from "solid-js/web";
-import { getCsfdId, getCsfdLink, getPageArtefacts, insertAfter } from "./utils";
-import { CSFDMovie } from "node-csfd-api/types/interfaces/movie.interface";
-import Button from "./Button";
-import { CATALOG_URLS } from "./vars";
+import { render } from 'solid-js/web';
+import { getCsfdId, getCsfdLink, getPageArtefacts, insertAfter } from './utils';
+import { CSFDMovie } from 'node-csfd-api/types/interfaces/movie.interface';
+import Button from './Button';
+import { CATALOG_URLS } from './vars';
 import {
   getButtonRootElementsKviff,
   getMovieAndYearKviff,
-} from "./kviff/utils";
+} from './kviff/utils';
 
 const renderButton = (movie: CSFDMovie): void => {
   const { root, placingNode } = getButtonRootElementsKviff();
@@ -18,7 +18,7 @@ const renderButton = (movie: CSFDMovie): void => {
 
 const getMovieAndRender = (csfdId: string): void => {
   chrome.runtime.sendMessage(
-    { contentScriptQuery: "getMovie", csfdId },
+    { contentScriptQuery: 'getMovie', csfdId },
     (movie: CSFDMovie) => renderButton(movie)
   );
 };
@@ -28,9 +28,9 @@ const searchMovieAndRender = (
   year: string | null
 ): void => {
   const searchQuery = `${movieName} ${year}`;
-  console.log("CSFD search", searchQuery);
+  console.log('CSFD search', searchQuery);
   chrome.runtime.sendMessage(
-    { contentScriptQuery: "getSearchMovie", searchQuery },
+    { contentScriptQuery: 'getSearchMovie', searchQuery },
     (movie: CSFDMovie) => renderButton(movie)
   );
 };
